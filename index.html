@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" href="./main.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet"/>
+</head>
+<body>
+<form id="reg-form" class="reg-form">
+    <fieldset id="reg-form-fields" class="reg-form__fieldset">
+        <legend class="reg-form__fieldset-title">Registration</legend>
+        <label for="email-address">Email:</label>
+        <input class="reg-form__input" type="email" id="email-address" name="email"/>
+        <label for="name">Login:</label>
+        <input class="reg-form__input" type="text" id="name" name="name"/>
+        <label for="password">Password:</label>
+        <input class="reg-form__input" type="password" id="password" name="password"/>
+        <button class="reg-form__button" id="register">Register</button>
+    </fieldset>
+</form>
+<div id="messagesForm" class="messages-form">
+    <div id="messages" class="messages"></div>
+    <div class="send-form">
+        <textarea type="text" id="sendMessageInput" class="send-form__input" placeholder="Message"></textarea>
+        <button id="sendMessageButton" class="send-form__button">SEND</button>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

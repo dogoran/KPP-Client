@@ -1,0 +1,106 @@
+body {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.reg-form {
+    margin: 0 auto;
+    width: 235px;
+}
+
+.reg-form__fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-color: #b2bec3;
+}
+
+.reg-form__fieldset-title {
+    font-size: 22px;
+}
+
+.reg-form__input {
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: solid 1px #2d3436;
+    outline: none;
+}
+
+.reg-form__button {
+    width: 150px;
+    height: 30px;
+    background: none;
+    border: solid 1px #2d3436;
+    border-radius: 5px;
+    margin: 20px auto 5px auto;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.send-form {
+    display: flex;
+    margin: 5px 0;
+}
+
+.send-form__input {
+    width: 85%;
+    height: 60px;
+    border: solid 1px #636e72;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+}
+
+.send-form__button {
+    width: 15%;
+    border: solid 1px #636e72;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 24px;
+    background: #f1f2f6;
+    cursor: pointer;
+}
+
+.messages {
+    width: 100%;
+    border: solid 1px #636e72;
+    border-radius: 10px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.messages__item-response {
+    border: solid 1px #636e72;
+    background: #f1f2f6;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 25px auto;
+    width: 90%;
+    position: relative;
+}
+
+.messages__item-info {
+    position: absolute;
+    right: 10px;
+    top: -24px;
+    font-size: 16px;
+}
+
+.messages__item-send {
+    max-width: 350px;
+    border: solid 1px black;
+    background: lawngreen;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.messages-form {
+    width: 500px;
+    margin: 100px auto;
+    display: none;
+}
